@@ -38,8 +38,8 @@ jobs:
       - name: Git push assets to "ytblive" branch
         run: |
           git init
-          git config --local user.name "actions"
-          git config --local user.email "action@github.com"
+          git config --local user.name "humphreygao"
+          git config --local user.email "1520080049@qq.com"
           git checkout -b ytblive
           git add .
           git commit -m "Update ytblive"
